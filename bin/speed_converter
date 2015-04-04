@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'speed_converter'
+puts SpeedConverter.convert(ARGV[0])
