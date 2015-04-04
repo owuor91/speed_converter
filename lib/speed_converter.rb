@@ -4,6 +4,7 @@ class SpeedConverter
 	def convert
 		puts "Enter speed in Km/h to convert to m/s"
 		speed = gets.to_f
+		speed = 50.to_f
 
 		ms = (speed *1000) /3600
 		puts ms.round(4)
